@@ -4,7 +4,7 @@
 
 ## What This Is
 
-A professional portfolio documenting progression through cyber security fundamentals. Each assignment goes beyond completion to demonstrate **understanding**: the why behind the what.
+A professional portfolio documenting progression through cyber security fundamentals. Each activities goes beyond completion to demonstrate **understanding**: the why behind the what.
 
 **Philosophy:** Think like an attacker. Build like a defender. Document like a professional.
 
@@ -16,28 +16,28 @@ A professional portfolio documenting progression through cyber security fundamen
 
 
 
-[→ View Assignment 1](/1-linux-fundamentals/)
+[→ View Activity 1](/1-linux-fundamentals/)
 
 ### 2. OverTheWire Bandit
 **Status:** Coming Soon
 
 Solving Bandit Levels 0-34. Real hacking challenges that teach Linux problem-solving through practice.
 
-[→ View Assignment 2](/2-bandit/)
+[→ View Activity 2](/2-bandit/)
 
 ### 3. Network Security Analysis
 **Status:** Coming Soon
 
 Capturing and analyzing network traffic. Understanding protocols, identifying threats, building defensive intuition.
 
-[→ View Assignment 3](/3-network-security/)
+[→ View Activity 3](/3-network-security/)
 
 ### 4. DVWA Walkthrough (Compulsory)
 **Status:** Coming Soon
 
 Deliberately Vulnerable Web Application—intentionally breaking into web apps, documenting vulnerabilities, explaining defenses.
 
-[→ View Assignment 4](/4-dvwa-walkthrough/)
+[→ View Activity 4](/4-dvwa-walkthrough/)
 
 ---
 ## The Approach
