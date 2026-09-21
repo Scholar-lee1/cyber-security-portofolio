@@ -75,7 +75,7 @@ Each vulnerability flows: **Understand → Exploit → Defend**
 
 ---
 
-## File Structure
+```
 4-dvwa-walkthrough/
 ├── README.md (this file)
 ├── 01-COMMAND_INJECTION.md
@@ -98,13 +98,12 @@ Each vulnerability flows: **Understand → Exploit → Defend**
 │   ├── Level Medium
 │   ├── Level High
 │   └── Level Impossible
-├── 05-SQL_BLIND_INJECTION.md
+└── 05-SQL_BLIND_INJECTION.md
     ├── Level Low
     ├── Level Medium
     ├── Level High
     └── Level Impossible
-
----
+```
 ## How to Read This
 
 For each vulnerability:
@@ -161,6 +160,7 @@ Made with intention. Built for mastery.
 
 ### For the making of this solution the following resource were used:
 
+- https://github.com/Los-merengue/Walkthrough/tree/main/dvwa
 - https://github.com/digininja/DVWA
 - https://github.com/LeonardoE95/DVWA/
 
