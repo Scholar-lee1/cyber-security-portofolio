@@ -56,6 +56,7 @@ What happened: Seeing the vulnerability, we can target the machine at IP `127.0.
 
 <img width="908" height="840" alt="Screenshot 2026-09-19 111236" src="https://github.com/user-attachments/assets/143e3726-6065-43fa-993c-f22696b1d8c2" />
 
+
 ---
 ## 3. Level: MEDIUM
 
@@ -69,7 +70,7 @@ A filter has now been added. It removes certain characters like `;` and `&&` tha
 Why Low's payload fails now:
 Our Low-level payload used `;` or `&&` to add another command. Since the filter now removes them, that method doesn't work anymore.
 
-**How we exploit it anyway:**
+How we exploit it anyway:
 The filter only blocks specific characters. It doesn't block every way of joining commands. We can use `|` instead, which the filter doesn't remove, to pass another command to the system.
 
 ```text
@@ -87,13 +88,13 @@ The filter only blocks specific characters. It doesn't block every way of joinin
 
 <img width="984" height="826" alt="Screenshot 2026-09-19 111843" src="https://github.com/user-attachments/assets/807afce5-6567-4dbf-b9d8-2b7a6d5e909f" />
 
-**How it differs from Medium:**
+How it differs from Medium:
 The filter is stronger. It now blocks more ways of joining commands, including the `|` operator when it is written with a space after it.
 
-**Why Medium's bypass fails now:**
+Why Medium's bypass fails now:
 Our Medium-level payload used `|` with a space, like `127.0.0.1 | whoami`. The stronger filter detects this format, so the payload doesn't work.
 
-**How we exploit it anyway:**
+How we exploit it anyway:
 The filter is still not properly sanitizing the input. We can remove the space after `|` and use it directly before the command:
 ```text
 127.0.0.1 |whoami
