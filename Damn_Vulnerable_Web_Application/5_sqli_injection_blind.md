@@ -269,14 +269,14 @@ Key takeaway: Blind SQL Injection is prevented when user-controlled data is kept
 
 ---
 ## 6. Summary Table
-`
+
 | Level      | Protection                                | Result                              |
 | ---------- | ----------------------------------------- | ----------------------------------- |
 | Low        | No protection                             | SQL Injection works                 |
 | Medium     | Input escaping / different query handling | SQL Injection can still be possible |
 | High       | Additional request/query handling         | SQL Injection can still be possible |
 | Impossible | Prepared statements + parameter binding   | SQL Injection prevented             |
-`
+
 
 
 
