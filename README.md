@@ -33,11 +33,11 @@ Capturing and analyzing network traffic. Understanding protocols, identifying th
 [→ View Activity 3](/3-network-security/)
 
 ### 4. DVWA Walkthrough (Compulsory)
-**Status:** Coming Soon
+**Status:** Available
 
 Deliberately Vulnerable Web Application—intentionally breaking into web apps, documenting vulnerabilities, explaining defenses.
 
-[→ View Activity 4](/4-dvwa-walkthrough/)
+[→ View Activity 4](/Damn-Vulnerable-WebApplication/)
 
 ---
 ## The Approach
