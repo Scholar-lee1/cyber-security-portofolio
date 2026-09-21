@@ -14,11 +14,11 @@
 **Screenshots included below:**
 
 ### 1. Download DVWA
-[<img width="963" height="856" alt="Screenshot 2026-09-19 025000" src="https://github.com/user-attachments/assets/80ddb69a-463f-4c12-b922-3517b86fe52f" />]
+<img width="963" height="856" alt="Screenshot 2026-09-19 025000" src="https://github.com/user-attachments/assets/80ddb69a-463f-4c12-b922-3517b86fe52f" />
 
 ---
 ### 2. DVWA Web Interface
-[<img width="997" height="848" alt="Screenshot 2026-09-21 014143" src="https://github.com/user-attachments/assets/0160e773-341a-4398-a9fe-9aebe877c1b9" />]
+<img width="997" height="848" alt="Screenshot 2026-09-21 014143" src="https://github.com/user-attachments/assets/0160e773-341a-4398-a9fe-9aebe877c1b9" />
 
 Default credentials:
 - Username: `admin`
@@ -27,7 +27,7 @@ Default credentials:
 ---
 ### 3. How to Change Difficulty Levels
 
-[<img width="957" height="864" alt="Screenshot 2026-09-19 025148" src="https://github.com/user-attachments/assets/3ceb3037-5335-4d07-a4b5-cadae03f56d9" />]
+<img width="957" height="864" alt="Screenshot 2026-09-19 025148" src="https://github.com/user-attachments/assets/3ceb3037-5335-4d07-a4b5-cadae03f56d9" />
 
 **Steps:**
 1. Log in to DVWA
