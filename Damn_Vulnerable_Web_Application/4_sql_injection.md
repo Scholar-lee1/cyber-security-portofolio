@@ -48,7 +48,6 @@ The application then uses that ID to query the database and return the correspon
 We've an input type text that received an User ID in I by user and submit request using the Submit button:
 <img width="915" height="504" alt="Screenshot 2026-09-20 074335" src="https://github.com/user-attachments/assets/4d051cc7-5ec2-4fa0-8428-c1680362b259" />
 
-
 ### Source Code
 <img width="990" height="849" alt="Screenshot 2026-09-20 074311" src="https://github.com/user-attachments/assets/ff2dbea5-0ba5-494f-bf30-ebde3ea20cac" />
 
@@ -88,7 +87,7 @@ This demonstrates how SQL Injection can expose data that the application did not
 <img width="897" height="597" alt="Screenshot 2026-09-20 083553" src="https://github.com/user-attachments/assets/260fd2a1-23ab-499e-a9b2-534515f37b42" />
 
 
-**Key takeaway:** The vulnerability exists because user input is directly combined with the SQL query. Proper parameterized queries and input handling prevent the database from treating user input as SQL instructions.
+Key takeaway: The vulnerability exists because user input is directly combined with the SQL query. Proper parameterized queries and input handling prevent the database from treating user input as SQL instructions.
 
 
 ---
@@ -148,7 +147,7 @@ Because `1=1` is always true, the query can return multiple records.
 We can also use `UNION` to combine the original query with another `SELECT` statement:
 
 ```text
-1 UNION SELECT first_name,password FROM users --
+1 UNION SELECT first_name,password FROM users #
 ```
 
 This demonstrates that the SQL query can be manipulated to retrieve additional information from the database.
@@ -156,7 +155,7 @@ Note: Each `SELECT` statement used with `UNION` must return the same number of c
 
 <img width="1338" height="857" alt="Screenshot 2026-09-20 084953" src="https://github.com/user-attachments/assets/e5d5364b-b700-4576-8029-6974a80d9b36" />
 
-**Key takeaway:** Even with additional input handling, directly constructing SQL queries from user input can leave the application vulnerable. Parameterized queries are the proper defense.
+Key takeaway: Even with additional input handling, directly constructing SQL queries from user input can leave the application vulnerable. Parameterized queries are the proper defense.
 
 
 ---
@@ -172,7 +171,7 @@ In this level clicking on first page, we obtain a redirect to a second page to s
 
 How it differs from Medium
 The application adds another layer of protection by separating the request into two stages:
-a **GET request** loads the page, while a **POST request** submits the User ID. The input is also handled differently from the Medium level.
+a GET request loads the page, while a **POST request** submits the User ID. The input is also handled differently from the Medium level.
 
 Why Medium's approach needs to be adjusted
 The Medium-level payload was designed for the query structure at that level. Since the High level uses a different request flow and query structure, we need to send the payload through the appropriate request.
@@ -188,13 +187,13 @@ we can manipulate the query's logic.
 1st Payload
 
 ```text id="h6k2pd"
-1' OR 1=1 --
+1' OR 1=1 #
 ```
 
 This changes the query logic to:
 
 ```text id="z8r4qm"
-SELECT first_name, last_name FROM users WHERE user_id = '1' OR 1=1 -- ';
+SELECT first_name, last_name FROM users WHERE user_id = '1' OR 1=1 # ';
 ```
 
 <img width="910" height="590" alt="Screenshot 2026-09-20 090012" src="https://github.com/user-attachments/assets/1c7ccc79-9b40-4bf8-9761-2813991c87aa" />
@@ -206,7 +205,7 @@ Because `1=1` is always true, the query can return multiple user records.
 We can also test a `UNION` query to see whether additional information can be returned:
 
 ```text id="m3x9va"
-' UNION SELECT first_name,password FROM users --
+' UNION SELECT first_name,password FROM users #
 ```
 
 This demonstrates that the SQL query remains manipulable despite the additional request handling.
@@ -230,7 +229,7 @@ The application uses a prepared statement with a bound parameter, meaning the Us
 So even if we enter SQL syntax such as:
 
 ```text
-' OR 1=1 --
+' OR 1=1 #
 ```
 
 the database does not interpret it as SQL instructions. It treats the entire input as a value.
