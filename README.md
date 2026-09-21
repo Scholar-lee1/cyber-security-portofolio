@@ -16,7 +16,7 @@ A professional portfolio documenting progression through cyber security fundamen
 
 
 
-[→ View Activity 1](/1-linux-fundamentals/)
+[→ View Activity 1](/Linux_Fundamentals/)
 
 ### 2. OverTheWire Bandit
 **Status:** Coming Soon
