@@ -36,10 +36,3 @@ Default credentials:
 4. Click **Submit**
 
 Each vulnerability can be tested at all 4 levels independently.
-
-## Vulnerabilities Exploited
-
-### 1. **Command Injection**
-...
-
-[Rest continues]
