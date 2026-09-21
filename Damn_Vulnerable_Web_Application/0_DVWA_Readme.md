@@ -156,6 +156,15 @@ Made with intention. Built for mastery.
 
 ---
 
+## Authorization & Training Context
+The hands-on cybersecurity activities documented in this repository are conducted as part of my authorized cybersecurity learning and training under BoyCode Africa, an affiliate of *Stellar Academy*.
+
+All practical exploitation activities are performed within controlled, intentionally vulnerable environments such as **DVWA on localhost** and other authorized training platforms.
+
+This repository is intended for **educational and defensive cybersecurity purposes**. The techniques demonstrated should only be applied to systems where explicit authorization has been granted.
+The purpose of these walkthroughs is to understand how vulnerabilities work, why exploitation succeeds or fails, and how the underlying security weaknesses can be properly mitigated.
+
+
 ## References & Resources
 
 ### For the making of this solution the following resource were used:
