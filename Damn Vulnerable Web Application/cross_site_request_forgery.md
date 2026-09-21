@@ -35,12 +35,13 @@ the action may be carried out using the user's existing session.
 ## 1. Interface
 <img width="928" height="858" alt="Screenshot 2026-09-19 112546" src="https://github.com/user-attachments/assets/d8cbb32e-c6ed-4655-aeff-91a1b4b37925" />
 
+What the form does (The DVWA CSRF form allows you to change the user's password by entering a new password and confirming it.)
 
 
+---
+## 2. Level: LOW
 
-
-
-
+### Source Code
 
 
 
