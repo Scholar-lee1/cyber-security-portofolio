@@ -37,7 +37,7 @@ Capturing and analyzing network traffic. Understanding protocols, identifying th
 
 Deliberately Vulnerable Web Application—intentionally breaking into web apps, documenting vulnerabilities, explaining defenses.
 
-[→ View Activity 4](/Damn-Vulnerable-WebApplication/)
+[→ View Activity 4](/Damn_Vulnerable_Web_Application/)
 
 ---
 ## The Approach
