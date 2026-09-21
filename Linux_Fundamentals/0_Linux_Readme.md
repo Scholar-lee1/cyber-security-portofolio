@@ -73,7 +73,7 @@ Each category has one continuous terminal screenshot showing all commands in seq
 ## What You'll Know
 
 By the end of Assignment 1, you'll:
-`
+
 
 ✅ Navigate Linux filesystem confidently
 
@@ -87,7 +87,7 @@ By the end of Assignment 1, you'll:
 
 ✅ Monitor and manage processes
 
-`
+
 
 **Foundation for everything else in security.**
 
