@@ -96,6 +96,7 @@ This demonstrates how SQL Injection can expose data that the application did not
 
 ### Interface
 Here, there're a select with range (1 to 5) to set User ID.
+
 <img width="524" height="239" alt="Screenshot 2026-09-20 083904" src="https://github.com/user-attachments/assets/8c3a1dcd-8dcc-4fb3-b728-4395e72a634a" />
 
 ### Source Code
