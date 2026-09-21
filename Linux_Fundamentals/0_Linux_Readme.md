@@ -63,21 +63,23 @@ Each category has one continuous terminal screenshot showing all commands in seq
 
 ## Progress
 - [ ] Category 1: File Management 
-- [ ] Category 2: Permissions (In Progress)
-- [ ] Category 3: Environment Variables (Coming)
-- [ ] Category 4: User Administration (Coming)
-- [ ] Category 5: Processes (Coming)
+- [ ] Category 2: Permissions
+- [ ] Category 3: Environment Variables 
+- [ ] Category 4: User Administration 
+- [ ] Category 5: Processes
 
 ---
 
 ## What You'll Know
 By the end of Assignment 1, you'll:
+`
 ✅ Navigate Linux filesystem confidently
 ✅ Manage files and directories efficiently
 ✅ Understand and control permissions
 ✅ Configure shell environment
 ✅ Administer users and groups
 ✅ Monitor and manage processes
+`
 
 **Foundation for everything else in security.**
 
