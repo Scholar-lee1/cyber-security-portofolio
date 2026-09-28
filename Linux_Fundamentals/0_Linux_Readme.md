@@ -13,7 +13,7 @@ Navigate, create, view, manipulate, analyze, and compress files and directories.
 
 **Skills gained:** Filesystem navigation, file organization, data handling
 
-[→ View Category 1](./CATEGORY_1_FILE_MANAGEMENT.md)
+[→ View Category 1](./1_file_management.md)
 
 ### Category 2: Permissions (20 commands)
 Control access, manage ownership, handle user/group privileges, and secure files.
