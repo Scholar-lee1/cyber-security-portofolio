@@ -27,7 +27,7 @@ Manage shell variables, set paths, configure environment, and debug configuratio
 
 **Skills gained:** Shell configuration, environment setup, automation
 
-[→ View Category 3](./CATEGORY_3_ENVIRONMENT_VARIABLES.md)
+[→ View Category 3](./3_environment_variable.md)
 
 ### Category 4: User Administration (20 commands)
 Create users, manage groups, handle authentication, and administer systems.
