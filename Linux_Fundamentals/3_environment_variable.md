@@ -637,6 +637,3 @@ After this section, I should be able to:
 
 > **Environment variables provide context that the shell and its child processes can use to determine how commands and programs behave.**
 
----
-
-**Next:** [04 — User Administration](04-user-administration.md)
