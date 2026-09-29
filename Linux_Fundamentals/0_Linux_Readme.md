@@ -34,7 +34,7 @@ Create users, manage groups, handle authentication, and administer systems.
 
 **Skills gained:** User management, system administration, multi-user concepts
 
-[→ View Category 4](./CATEGORY_4_USER_ADMINISTRATION.md)
+[→ View Category 4](./4_user_administration.md)
 
 ### Category 5: Processes (20 commands)
 Monitor running processes, manage priorities, background jobs, and system performance.
